@@ -1,12 +1,24 @@
 body {
     font-family: sans-serif;
     text-align: center;
-    background-color: #ff9c2b;
+    background-color: #eb2929;
+    background-image: linear-gradient(to top, #ff9901 , #ff0000);
+
 }
 
 #conversor {
     margin: 20px auto;
     width: 300px;
+    margin-bottom: 10%;
+    background-color: rgb(15, 138, 187);
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    padding: 5%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 40px 40px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right, #c5c5c5 , #5f5c5c);
 }
 
 label {
